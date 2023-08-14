@@ -1,4 +1,4 @@
-FROM mkka30/main:mltb-latest
+FROM mkka30/main:sam-max
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
